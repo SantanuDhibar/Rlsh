@@ -1,0 +1,8 @@
+{
+  "build": {
+    "builder": "DOCKERFILE"
+  },
+  "deploy": {
+    "startCommand": "deno run --allow-net --allow-env server.ts"
+  }
+}
